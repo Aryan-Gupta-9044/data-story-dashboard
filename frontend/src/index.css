@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+
+/* A single hairline rule instead of card borders/shadows everywhere. */
+.rule {
+  border-color: theme("colors.line");
+}
+html.dark .rule {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* KPI figures and any raw data value read in mono, like ledger numerals. */
+.figure {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Insight / narrative text reads in serif, like marginalia on a page. */
+.narrative {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+::selection {
+  background: #d98e3655;
+}
+
+/* Visible keyboard focus, no glow/shadow — a 2px offset ink ring. */
+:focus-visible {
+  outline: 2px solid #2f6f6b;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

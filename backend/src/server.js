@@ -30,10 +30,8 @@ app.use((err, _req, res, _next) => {
   if (status >= 500) console.error(err);
   res.status(status).json({ error: err.message || "Unexpected error." });
 });
+const PORT = process.env.PORT || 8787;
 
-const port = process.env.PORT || 8787;
-ensureSamples()
-  .catch((e) => console.warn("[seed] skipped:", e.message))
-  .finally(() =>
-    app.listen(port, () => console.log(`Data Story Dashboard API on :${port} (store: ${storeMode})`))
-  );
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});

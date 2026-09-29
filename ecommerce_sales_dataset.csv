@@ -1,0 +1,21 @@
+date,region,category,product,units_sold,revenue_inr,customer_rating,avg_order_value_inr
+2026-01-05,North,Electronics,Laptop,12,720000,4.6,60000.0
+2026-01-12,South,Electronics,Smartphone,28,840000,4.4,30000.0
+2026-01-20,West,Home,Air Purifier,15,225000,4.2,15000.0
+2026-02-03,East,Fashion,Shoes,42,168000,4.1,4000.0
+2026-02-14,North,Home,Coffee Maker,25,150000,4.3,6000.0
+2026-02-22,South,Electronics,Tablet,19,285000,4.5,15000.0
+2026-03-04,West,Fashion,Jacket,31,248000,4.0,8000.0
+2026-03-15,East,Electronics,Headphones,55,220000,4.7,4000.0
+2026-03-27,North,Home,Vacuum Cleaner,18,216000,4.4,12000.0
+2026-04-06,South,Fashion,Backpack,48,192000,4.2,4000.0
+2026-04-18,West,Electronics,Monitor,22,264000,4.6,12000.0
+2026-04-29,East,Home,Desk Lamp,60,90000,4.0,1500.0
+2026-05-08,North,Electronics,Keyboard,75,112500,4.5,1500.0
+2026-05-19,South,Home,Office Chair,21,252000,4.3,12000.0
+2026-05-30,West,Fashion,T-Shirt,85,170000,4.1,2000.0
+2026-06-09,East,Electronics,Smartwatch,33,330000,4.6,10000.0
+2026-06-21,North,Fashion,Jeans,46,184000,4.2,4000.0
+2026-07-02,South,Electronics,Camera,14,350000,4.7,25000.0
+2026-07-16,West,Home,Blender,37,148000,4.1,4000.0
+2026-07-28,East,Fashion,Sneakers,52,260000,4.5,5000.0
